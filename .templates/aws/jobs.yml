@@ -1,0 +1,8 @@
+---
+jobs:
+  - name: gogs_z1
+    instances: 1
+    networks:
+    - name: gogs1
+      static_ips: (( static_ips(0) ))
+    persistent_disk: (( grab meta.persistent_disk ))

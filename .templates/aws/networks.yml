@@ -1,0 +1,9 @@
+---
+networks:
+  - name: floating
+    type: vip
+    cloud_properties: {}
+  - name: gogs1
+    type: dynamic
+    cloud_properties:
+      security_groups: (( meta.security_groups ))

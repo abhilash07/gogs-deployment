@@ -1,0 +1,13 @@
+---
+compilation:
+  cloud_properties:
+    cpu: 1
+    ram: 2048
+    disk: 18_000
+
+resource_pools:
+  - name: small_z1
+    cloud_properties:
+      cpu: 1
+      ram: 2048
+      disk: 18_000
